@@ -1,0 +1,70 @@
+*{
+    box-sizing : border-box;
+}
+body{
+    margin :0px;
+    background-color :azure;
+    height :100vh;
+    display :flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:center;
+}
+.Calculator{
+    width:400px;
+    height :550px;
+    background-color:hsl(0, 0%, 20%);
+    border-radius:10px;
+    overflow :hidden;
+    padding:15px;
+    box-shadow:5px 5px 9px rgb(0, 0, 0);
+    display :flex;
+    flex-flow:column wrap;
+    justify-content:space-evenly;
+
+}
+.Content{
+    width:100%;
+    height :13%;
+}
+.Content input{
+    display:block;
+    width:100%;
+    height:100%;
+    border-radius:6px;
+}
+.Keys{
+    margin-top:10px;
+    width:100%;
+    height :82%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    gap: 10px;
+    align-content: space-between;
+
+
+}
+.Keys .Button{
+    width:80px;
+    height :80px;
+    border-radius:50%;
+    background-color:hsl(39, 100%, 50%);
+    font-size:2.5em;
+    text-align:center;
+    font-family:Helvetica;
+}
+.Keys .Button:hover{
+    transform:scale(1.03);
+    background-color :hsl(39, 100%, 60%);
+}
+.Content input {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
